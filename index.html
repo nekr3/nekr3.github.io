@@ -7,12 +7,22 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+		<script>
+			function resumeIn() {
+				var res = document.getElementById("resume");
+				res.style.border = "2px solid #2AB0BF";
+			}
+			function resumeOut() {
+				var res = document.getElementById("resume");
+				res.style.border = "0px solid #2AB0BF";
+			}
+		</script>
 	</head>
 	<body>
 		<div class="container">
 			<h1>Page currently under development.</h1>
 			<p>Check back later for more updates!</p>
-			<a href="/Resume.pdf" style="font-family: Verdana, Microsoft JhengHei UI, Leelawadee, Proxima Nova, sans-serif; background-color: #3467ba; border-style: solid none solid none; border-color: #6bcbff; border-width: 2px" class="btn btn-primary">RESUME</a>
+			<a href="/Resume.pdf" style="font-family: Verdana, Microsoft JhengHei UI, Leelawadee, Proxima Nova, sans-serif; background-color: #051940;" class="btn btn-primary" id="resume" onmouseover="resumeIn()" onmouseout="resumeOut()">RESUME</a>
 		</div>
 	</body>
 </html>
