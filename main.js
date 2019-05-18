@@ -33,13 +33,13 @@ function unrotateImg() {
 }
 function rotateImgX() {
 	var icon = document.getElementById("menuicon");
-	var deg = 1260;
+	var deg = 1080;
 	icon.style.webkitTransform = 'rotate('+deg+'deg)';
     icon.style.mozTransform    = 'rotate('+deg+'deg)';
     icon.style.msTransform     = 'rotate('+deg+'deg)';
     icon.style.oTransform      = 'rotate('+deg+'deg)';
     icon.style.transform       = 'rotate('+deg+'deg)';
-	deg = 1440;
+	deg = 1260;
 	icon.src = "secondx.png";
 	usingx = true;
 	icon.style.webkitTransform = 'rotate('+deg+'deg)';
