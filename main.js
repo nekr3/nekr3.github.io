@@ -50,7 +50,7 @@ function rotateImgX() {
 }
 function unrotateImgX() {
 	var icon = document.getElementById("menuicon");
-	var deg = 1260;
+	var deg = 1080;
 	icon.style.webkitTransform = 'rotate('+deg+'deg)';
     icon.style.mozTransform    = 'rotate('+deg+'deg)';
     icon.style.msTransform     = 'rotate('+deg+'deg)';
