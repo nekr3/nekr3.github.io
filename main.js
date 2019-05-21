@@ -120,7 +120,7 @@ function toggleFade() {
 			y.style.filter = 'alpha(opacity=' + op * 100 + ")";
 			op -= op * 0.1;
 		}, 10);
-		if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) headerSmall();
+		//if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) headerSmall();
 	}
 }
 function headerSmall() {
