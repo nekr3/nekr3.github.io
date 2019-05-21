@@ -19,8 +19,8 @@ function resumeOut() {
 }
 function rotateImg() {
 	var icon = document.getElementById("menuicon");
-	var deg = 360;
-	if (usingx) deg = 720;
+	var deg = 180;
+	if (usingx) deg = 540;
 	icon.style.webkitTransform = 'rotate('+deg+'deg)';
     icon.style.mozTransform = 'rotate('+deg+'deg)';
     icon.style.msTransform = 'rotate('+deg+'deg)';
@@ -34,26 +34,26 @@ function rotateImg() {
 function unrotateImg() {
 	var icon = document.getElementById("menuicon");
 	var deg = 0;
-	if (usingx) deg = 360;
+	if (usingx) deg = 180;
 	icon.style.webkitTransform = 'rotate('+deg+'deg)';
     icon.style.mozTransform = 'rotate('+deg+'deg)';
     icon.style.msTransform = 'rotate('+deg+'deg)';
     icon.style.oTransform = 'rotate('+deg+'deg)';
     icon.style.transform = 'rotate('+deg+'deg)';
-	if (!usingx && !(document.body.scrollTop > 50 || document.documentElement.scrollTop > 50)) headerSmall();
+	if (!usingx && (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50)) headerSmall();
 	headsize = true;
 	if (headsize) icon.style.padding = "5px";
 	else icon.style.padding = "8px";
 }
 function rotateImgX() {
 	var icon = document.getElementById("menuicon");
-	var deg = 540;
+	var deg = 360;
 	icon.style.webkitTransform = 'rotate('+deg+'deg)';
     icon.style.mozTransform = 'rotate('+deg+'deg)';
     icon.style.msTransform = 'rotate('+deg+'deg)';
     icon.style.oTransform = 'rotate('+deg+'deg)';
     icon.style.transform = 'rotate('+deg+'deg)';
-	deg = 720;
+	deg = 540;
 	setTimeout(function() {
 		icon.src = "secondx.png";
 		usingx = true;
@@ -66,13 +66,13 @@ function rotateImgX() {
 }
 function unrotateImgX() {
 	var icon = document.getElementById("menuicon");
-	var deg = 540;
+	var deg = 360;
 	icon.style.webkitTransform = 'rotate('+deg+'deg)';
     icon.style.mozTransform = 'rotate('+deg+'deg)';
     icon.style.msTransform = 'rotate('+deg+'deg)';
     icon.style.oTransform = 'rotate('+deg+'deg)';
     icon.style.transform = 'rotate('+deg+'deg)';
-	var deg = 360;
+	var deg = 180;
 	setTimeout(function() {
 		icon.src = "menuicon.png";
 		usingx = false;
@@ -126,7 +126,7 @@ function toggleFade() {
 function headerSmall() {
 	document.getElementById("menuicon").style.transition = "0.2s";
 	document.getElementById("menuicon").style.height = "30px";
-	document.getElementById("menuicon").style.padding = "5px";
+	document.getElementById("menuicon").style.padding = "4px";
 	document.getElementById("home").style.lineHeight = "15px";
 	document.getElementById("fader").style.lineHeight = "15px";
 	document.getElementById("logonm").style.lineHeight = "15px";
@@ -135,12 +135,12 @@ function headerSmall() {
 	document.getElementById("logonm").style.fontSize = "22px";
 	document.getElementById("spacer").style.height = "30px";
 	headsize = true;
-	document.getElementById("menuicon").style.transition = "0.5s";
+	setTimeout(function() {document.getElementById("menuicon").style.transition = "0.5s";}, 10);
 }
 function headerBig() {
 	document.getElementById("menuicon").style.transition = "0.2s";
 	document.getElementById("menuicon").style.height = "42px";
-	document.getElementById("menuicon").style.padding = "8px";
+	document.getElementById("menuicon").style.padding = "6px";
 	document.getElementById("home").style.lineHeight = "25px";
 	document.getElementById("fader").style.lineHeight = "25px";
 	document.getElementById("logonm").style.lineHeight = "25px";
@@ -149,7 +149,7 @@ function headerBig() {
 	document.getElementById("logonm").style.fontSize = "25px";
 	document.getElementById("spacer").style.height = "42px";
 	headsize = false;
-	document.getElementById("menuicon").style.transition = "0.5s";
+	setTimeout(function() {document.getElementById("menuicon").style.transition = "0.5s";}, 10);
 }
 function fade(element) {
 	var op = 1;  // initial opacity
