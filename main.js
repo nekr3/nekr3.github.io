@@ -50,6 +50,7 @@ function unrotateImg() {
 	else icon.style.padding = "8px";
 }
 function rotateImgX() {
+	usingx = true;
 	var icon = document.getElementById("menuicon");
 	var deg = 360;
 	icon.style.webkitTransform = 'rotate('+deg+'deg)';
@@ -60,7 +61,6 @@ function rotateImgX() {
 	deg = 540;
 	setTimeout(function() {
 		icon.src = "secondx.png";
-		usingx = true;
 	}, 200);
 	icon.style.webkitTransform = 'rotate('+deg+'deg)';
     icon.style.mozTransform = 'rotate('+deg+'deg)';
@@ -69,6 +69,7 @@ function rotateImgX() {
     icon.style.transform = 'rotate('+deg+'deg)';
 }
 function unrotateImgX() {
+	usingx = false;
 	var icon = document.getElementById("menuicon");
 	var deg = 360;
 	icon.style.webkitTransform = 'rotate('+deg+'deg)';
@@ -79,7 +80,6 @@ function unrotateImgX() {
 	var deg = 180;
 	setTimeout(function() {
 		icon.src = "menuicon.png";
-		usingx = false;
 	}, 200);
 	icon.style.webkitTransform = 'rotate('+deg+'deg)';
     icon.style.mozTransform = 'rotate('+deg+'deg)';
