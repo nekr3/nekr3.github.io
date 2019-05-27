@@ -4,6 +4,23 @@ function init() {
 }
 var usingx = false;
 var headsize = false;
+var ahover = false;
+function activeHover() {
+	var active = document.getElementById("home");
+	if (ahover) {
+		active.style.backgroundColor = "#020E26";
+		active.style.color = "#ffffff";
+		active.style.borderRadius = "0px";
+		ahover = false;
+	}
+	else {
+		active.style.backgroundColor = "#ffffff";
+		active.style.color = "#020E26";
+		if (headsize) active.style.borderRadius = "4px";
+		else active.style.borderRadius = "4px 0px 0px 4px";
+		ahover = true;
+	}
+}
 function rotateImg() {
 	var icon = document.getElementById("menuicon");
 	var deg = 180;

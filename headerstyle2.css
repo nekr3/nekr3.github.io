@@ -27,7 +27,7 @@ body {
 }
 .header img {
 	float:left;
-	user-drag: none; 
+	user-drag: none;
 	user-select: none;
 	-moz-user-select: none;
 	-webkit-user-drag: none;
@@ -37,7 +37,10 @@ body {
 }
 .header a:hover {
 	/*background-color: #051940;*/
-	color: #2cb0bf;
+	background-color: #ffffff;
+	/*color: #2cb0bf;*/
+	color: #020E26;
+	border-radius: 0px 4px 4px 0px;
 }
 .header a.logo {
 	color: white;
