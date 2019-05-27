@@ -79,8 +79,8 @@ function unrotateImgX() {
 function toggleFade() {
 	var x = document.getElementById("fader");
 	var y = document.getElementById("logonm");
-	var z = document.getElementById("spoocer");
-	var a = document.getElementById("logopic");
+	//var z = document.getElementById("spoocer");
+	//var a = document.getElementById("logopic");
 	if (x.style.display === "none") {
 		rotateImgX();
 		//x.style.display = "block";
@@ -91,17 +91,17 @@ function toggleFade() {
 		var timer = setInterval(function () {
 			if (op >= 1){
 				clearInterval(timer);
-				a.style.display = 'none';
-				z.style.display = 'none';
+				//a.style.display = 'none';
+				//z.style.display = 'none';
 			}
 			x.style.opacity = op;
 			y.style.opacity = op;
 			//z.style.opacity = op;
-			a.style.opacity = 1-op;
+			//a.style.opacity = 1-op;
 			x.style.filter = 'alpha(opacity=' + op * 100 + ")";
 			y.style.filter = 'alpha(opacity=' + op * 100 + ")";
 			//z.style.filter = 'alpha(opacity=' + op * 100 + ")";
-			a.style.filter = 'alpha(opacity=' + (1-op) * 100 + ")";
+			//a.style.filter = 'alpha(opacity=' + (1-op) * 100 + ")";
 			op += op * 0.1;
 		}, 10);
 		if (headsize && document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) headerBig();
@@ -110,8 +110,8 @@ function toggleFade() {
 		unrotateImgX();
 		//x.style.display = "none";
 		var op = 1;  // initial opacity
-		a.style.display = "block";
-		z.style.display = "block";
+		//a.style.display = "block";
+		//z.style.display = "block";
 		var timer = setInterval(function () {
 			if (op <= 0.1){
 				clearInterval(timer);
@@ -121,13 +121,13 @@ function toggleFade() {
 			}
 			x.style.opacity = op;
 			y.style.opacity = op;
-			a.style.opacity = 1-op;
-			z.style.opacity = 1-op;
+			//a.style.opacity = 1-op;
+			//z.style.opacity = 1-op;
 			//z.style.opacity = op;
 			x.style.filter = 'alpha(opacity=' + op * 100 + ")";
 			y.style.filter = 'alpha(opacity=' + op * 100 + ")";
-			a.style.filter = 'alpha(opacity=' + (1-op) * 100 + ")";
-			z.style.filter = 'alpha(opacity=' + (1-op) * 100 + ")";
+			//a.style.filter = 'alpha(opacity=' + (1-op) * 100 + ")";
+			//z.style.filter = 'alpha(opacity=' + (1-op) * 100 + ")";
 			//z.style.filter = 'alpha(opacity=' + op * 100 + ")";
 			op -= op * 0.1;
 		}, 10);
