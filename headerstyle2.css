@@ -49,6 +49,10 @@ body {
 	font-family: Ubuntu, Microsoft JhengHei UI, sans-serif;
 	/*font-weight: bold;*/
 }
+.header a.logo:hover {
+	color: white;
+	background-color: #020E26;
+}
 .header a.active {
 	/*background-color: #0367A6;*/
 	background-color: #020E26;
