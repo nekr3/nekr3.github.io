@@ -119,7 +119,7 @@ function toggleFade() {
 			y.style.filter = 'alpha(opacity=' + op * 100 + ")";
 			//z.style.filter = 'alpha(opacity=' + op * 100 + ")";
 			//a.style.filter = 'alpha(opacity=' + (1-op) * 100 + ")";
-			op += op * 0.1;
+			op += 0.1;
 		}, 10);
 		if (headsize && document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) headerBig();
 		headsize = false;
