@@ -21,7 +21,7 @@ body {
 	line-height: 25px;
 	/*border-radius: 4px;*/
 	vertical-align: middle;
-	font-family: Verdana, Microsoft JhengHei UI, sans-serif;
+	font-family: Microsoft JhengHei UI, Hiragino Kaku Gothic Pro, Helvetiva Neue, Ubuntu, Verdana, sans-serif;
 	display: none;
 	transition: 0.2s;
 }
@@ -46,7 +46,7 @@ body {
 	color: white;
 	font-size: 25px;
 	padding-left: 0px;
-	font-family: Microsoft JhengHei UI Light, Hiragino Kaku Gothic Pro, Helvetiva Neue, Ubuntu, Verdana, sans-serif;
+	font-family: Microsoft JhengHei UI, Hiragino Kaku Gothic Pro, Helvetiva Neue, Ubuntu, Verdana, sans-serif;
 	/*font-weight: bold;*/
 }
 .header a.logo:hover {
