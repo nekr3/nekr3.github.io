@@ -166,7 +166,13 @@ function headerSmall() {
 	document.getElementById("logopic").style.height = "25px";
 	document.getElementById("logopic").style.width = "25px";
 	document.getElementById("logopic").style.padding = "3px";
-	document.getElementById("pageheader").style.paddingRight = "48%";
+	//document.getElementById("pagebtns").style.cssFloat = "none";
+	//document.getElementById("pagebtns").style.styleFloat = "none";
+	//document.getElementById("pageheader").style.textAlign = "center";
+	//document.getElementById("pagebtns").style.margin = "auto";
+	//document.getElementById("pagebtns").style.width = "70px";
+	var w = (document.getElementById("pageheader").offsetWidth - document.getElementById("home").offsetWidth)/2;
+	document.getElementById("pageheader").style.paddingRight = ""+w+"px";
 	//document.getElementById("pageheader").style.backgroundImage = "linear-gradient(0deg, transparent, #2AB0BF)";
 	//document.getElementById("pageheader").style.backgroundColor = "transparent";
 	headsize = true;
@@ -188,6 +194,11 @@ function headerBig() {
 	document.getElementById("logopic").style.height = "42px";
 	document.getElementById("logopic").style.width = "42px";
 	document.getElementById("logopic").style.padding = "5px";
+	//document.getElementById("pagebtns").style.cssFloat = "right";
+	//document.getElementById("pagebtns").style.styleFloat = "right";
+	//document.getElementById("pageheader").style.textAlign = "center";
+	//document.getElementById("pagebtns").style.margin = "auto";
+	//document.getElementById("pagebtns").style.width = "";
 	document.getElementById("pageheader").style.paddingRight = "10px";
 	//document.getElementById("pageheader").style.backgroundColor = "#020E26";
 	//document.getElementById("pageheader").style.backgroundImage = "";
