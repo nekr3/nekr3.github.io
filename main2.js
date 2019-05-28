@@ -165,7 +165,7 @@ function headerSmall() {
 	document.getElementById("spoocer").style.height = "25px";
 	document.getElementById("logopic").style.height = "25px";
 	document.getElementById("logopic").style.width = "25px";
-	document.getElementById("logopic").style.padding = "3px";
+	document.getElementById("logopic").style.padding = "2px";
 	//document.getElementById("pagebtns").style.cssFloat = "none";
 	//document.getElementById("pagebtns").style.styleFloat = "none";
 	//document.getElementById("pageheader").style.textAlign = "center";
