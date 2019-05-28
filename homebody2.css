@@ -7,7 +7,7 @@
 	background-color: #051940;
 	border: 1px solid #ffffff;
 	color: #E9F2EA;
-	font-family: Microsoft JhengHei UI, Verdana, Leelawadee, Proxima Nova, sans-serif;
+	font-family: Microsoft JhengHei UI, Hiragino Kaku Gothic Pro, Helvetiva Neue, Ubuntu, Verdana, sans-serif;
 	/*font-weight: bold;*/
 	font-size: 18px;
 	transition: 0.2s;
@@ -35,11 +35,11 @@
 #neil {
 	text-align: center;
 	color: #444444;
-	font-family: Microsoft JhengHei UI Light, Hiragino Kaku Gothic Pro, Ubuntu, Verdana, sans-serif;
+	font-family: Microsoft JhengHei UI Light, Hiragino Kaku Gothic Pro, Helvetiva Neue, Ubuntu, Verdana, sans-serif;
 	font-size: 60px;
 }
 #malur {
 	font-weight: bold;
 	color: #0367A6;
-	font-family: Microsoft JhengHei UI Light, Hiragino Kaku Gothic Pro, Ubuntu, Verdana, sans-serif;
+	font-family: Microsoft JhengHei UI Light, Hiragino Kaku Gothic Pro, Helvetiva Neue, Ubuntu, Verdana, sans-serif;
 }

@@ -46,7 +46,7 @@ body {
 	color: white;
 	font-size: 25px;
 	padding-left: 0px;
-	font-family: Microsoft JhengHei UI, Verdana, Ubuntu, sans-serif;
+	font-family: Microsoft JhengHei UI Light, Hiragino Kaku Gothic Pro, Helvetiva Neue, Ubuntu, Verdana, sans-serif;
 	/*font-weight: bold;*/
 }
 .header a.logo:hover {
