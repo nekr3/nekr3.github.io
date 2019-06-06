@@ -1,7 +1,3 @@
-window.onload = init;
-function init() {
-	//header.classList.add("sticky");
-}
 $(window).resize(function() {
   if (headsize) headerSmall();
   else headerBig();
@@ -100,59 +96,38 @@ function unrotateImgX() {
 function toggleFade() {
 	var x = document.getElementById("fader");
 	var y = document.getElementById("logonm");
-	//var z = document.getElementById("spoocer");
-	//var a = document.getElementById("logopic");
 	if (x.style.display === "none") {
 		rotateImgX();
-		//x.style.display = "block";
-		var op = 0.1;  // initial opacity
+		var op = 0.1;
 		x.style.display = 'block';
 		y.style.display = 'block';
-		//z.style.display = 'block';
 		var timer = setInterval(function () {
 			if (op >= 1){
 				clearInterval(timer);
-				//a.style.display = 'none';
-				//z.style.display = 'none';
 			}
 			x.style.opacity = op;
 			y.style.opacity = op;
-			//z.style.opacity = op;
-			//a.style.opacity = 1-op;
 			x.style.filter = 'alpha(opacity=' + op * 100 + ")";
 			y.style.filter = 'alpha(opacity=' + op * 100 + ")";
-			//z.style.filter = 'alpha(opacity=' + op * 100 + ")";
-			//a.style.filter = 'alpha(opacity=' + (1-op) * 100 + ")";
 			op += 0.1;
 		}, 10);
 		if (headsize && document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) headerBig();
 		headsize = false;
 	} else {
 		unrotateImgX();
-		//x.style.display = "none";
-		var op = 1;  // initial opacity
-		//a.style.display = "block";
-		//z.style.display = "block";
+		var op = 1;
 		var timer = setInterval(function () {
 			if (op <= 0.1){
 				clearInterval(timer);
 				x.style.display = 'none';
 				y.style.display = 'none';
-				//z.style.display = 'none';
 			}
 			x.style.opacity = op;
 			y.style.opacity = op;
-			//a.style.opacity = 1-op;
-			//z.style.opacity = 1-op;
-			//z.style.opacity = op;
 			x.style.filter = 'alpha(opacity=' + op * 100 + ")";
 			y.style.filter = 'alpha(opacity=' + op * 100 + ")";
-			//a.style.filter = 'alpha(opacity=' + (1-op) * 100 + ")";
-			//z.style.filter = 'alpha(opacity=' + (1-op) * 100 + ")";
-			//z.style.filter = 'alpha(opacity=' + op * 100 + ")";
 			op -= op * 0.1;
 		}, 10);
-		//if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) headerSmall();
 	}
 }
 function headerSmall() {
@@ -170,15 +145,8 @@ function headerSmall() {
 	document.getElementById("logopic").style.height = "25px";
 	document.getElementById("logopic").style.width = "25px";
 	document.getElementById("logopic").style.padding = "2px";
-	//document.getElementById("pagebtns").style.cssFloat = "none";
-	//document.getElementById("pagebtns").style.styleFloat = "none";
-	//document.getElementById("pageheader").style.textAlign = "center";
-	//document.getElementById("pagebtns").style.margin = "auto";
-	//document.getElementById("pagebtns").style.width = "70px";
 	var w = (document.getElementById("pageheader").offsetWidth - document.getElementById("home").offsetWidth)/2;
 	document.getElementById("pageheader").style.paddingRight = ""+w+"px";
-	//document.getElementById("pageheader").style.backgroundImage = "linear-gradient(0deg, transparent, #2AB0BF)";
-	//document.getElementById("pageheader").style.backgroundColor = "transparent";
 	headsize = true;
 	setTimeout(function() {document.getElementById("menuicon").style.transition = "0.5s";}, 5);
 }
@@ -198,14 +166,7 @@ function headerBig() {
 	document.getElementById("logopic").style.height = "42px";
 	document.getElementById("logopic").style.width = "42px";
 	document.getElementById("logopic").style.padding = "5px";
-	//document.getElementById("pagebtns").style.cssFloat = "right";
-	//document.getElementById("pagebtns").style.styleFloat = "right";
-	//document.getElementById("pageheader").style.textAlign = "center";
-	//document.getElementById("pagebtns").style.margin = "auto";
-	//document.getElementById("pagebtns").style.width = "";
 	document.getElementById("pageheader").style.paddingRight = "10px";
-	//document.getElementById("pageheader").style.backgroundColor = "#020E26";
-	//document.getElementById("pageheader").style.backgroundImage = "";
 	headsize = false;
 	setTimeout(function() {document.getElementById("menuicon").style.transition = "0.5s";}, 5);
 }
