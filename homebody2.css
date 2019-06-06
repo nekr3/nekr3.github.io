@@ -1,0 +1,144 @@
+#resume {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 50px;
+	width: 125px;
+	background-color: #051940;
+	border: 1px solid #ffffff;
+	color: #E9F2EA;
+	font-family: Microsoft JhengHei UI, Hiragino Kaku Gothic Pro, Helvetiva Neue, Ubuntu, Verdana, sans-serif;
+	/*font-weight: bold;*/
+	font-size: 18px;
+	transition: 0.2s;
+}
+#bigplate {
+	background-image: url("clouds3.jpg");
+	background-size: 1200px;
+	background-position: center top;/*-400px*/
+	border-radius: 10px;
+	/*height:500px;
+	padding-top: 135px;*/
+}
+#grad {
+	width: 100%;
+	height: 170px;
+	/*background-image: linear-gradient(90deg, #3387C6, #4397D6);*/
+	/*background-image: linear-gradient(90deg, #3387C6, #3387C6, #3387C6, #2AB0BF, #2AB0BF);*/
+	/*background-image: radial-gradient(circle at 83% 50%, #E9F2EA, #3387C6, #3387C6, #3387C6);*/
+	/*background-color: #0367A6;*/
+	/*background-color: #3387C6;*/
+	/*background-image: url("powderexplode.jpeg");
+	background-size: 100%;
+	background-position: center -60%;/*-400px*/
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 10px 10px 0px 0px;
+	padding: 20px;
+}
+#grad2 {
+	width: 100%;
+	/*height: 55px;*/
+	/*background-image: linear-gradient(90deg, #3387C6, #4397D6);*/
+	/*background-image: linear-gradient(90deg, #3387C6, #3387C6, #3387C6, #2AB0BF, #2AB0BF);*/
+	/*background-image: radial-gradient(circle at 96% -125%, #E9F2EA, #3387C6, #3387C6, #3387C6);*/
+	/*background-color: #0367A6;*/
+	/*background-color: #3387C6;*/
+	/*background-image: url("powderexplode.jpeg");
+	background-size: 100%;
+	background-position: center -27.5%;/*-570px*/
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 0px 0px 10px 10px;
+	padding-bottom: 20px;
+	margin: 0 auto;
+	padding: 0px 20px 20px 20px;
+}
+/*#leftholder*/ 
+#nameholder {
+	border-radius: 7px;
+	background-color: white;
+	width: 72%;
+	height:130px;
+	float:left;
+	display: flex;
+	align-items: center;
+	justify-content: center;"
+}
+#descholder {
+	border-radius: 7px;
+	background-color: white;
+	width: 100%;
+	/*height:40px;*/
+	float:left;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align:center;
+	padding-top: 8px;
+	overflow:hidden;
+}
+#neil {
+	text-align: center;
+	color: #444444;
+	font-family: Microsoft JhengHei UI Light, Hiragino Kaku Gothic Pro, Helvetiva Neue, Ubuntu, Verdana, sans-serif;
+	font-size: 60px;
+}
+#malur {
+	font-weight: bold;
+	color: #0367A6;/*#3387C6#0367A6#2AB0BF*/
+	font-family: Microsoft JhengHei UI Light, Hiragino Kaku Gothic Pro, Helvetiva Neue, Ubuntu, Verdana, sans-serif;
+}
+.sectionheader {
+	font-family: Microsoft JhengHei UI Light, Hiragino Kaku Gothic Pro, Helvetiva Neue, Ubuntu, Verdana, sans-serif;
+	/*font-size: 36px;*/
+}
+.sectioncontent {
+	font-family: Microsoft JhengHei UI, Hiragino Kaku Gothic Pro, Helvetiva Neue, Ubuntu, Verdana, sans-serif;
+	font-size: 15px;
+}
+#statholder {
+	width:100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image: url("oceanpic3.jpg");
+	background-size: 100%;
+	background-position: top center;
+	color: white;
+	padding: 20px 0px 20px 0px;
+}
+.bignum {
+	font-size: 48px;
+	font-family: Microsoft JhengHei UI Light, Hiragino Kaku Gothic Pro, Helvetiva Neue, Ubuntu, Verdana, sans-serif;
+}
+.numdesc {
+	font-size: 16px;
+	font-family: Microsoft JhengHei UI, Hiragino Kaku Gothic Pro, Helvetiva Neue, Ubuntu, Verdana, sans-serif;
+	font-weight: bold;
+}
+#statholder td {
+	text-align: center;
+}
+::selection {
+    background-color: #b4e1f7;
+    color: black;
+}
+::-moz-selection {
+    background-color: paleturquoise;
+    color: black;
+}
+::-o-selection {
+    background-color: paleturquoise;
+    color: black;
+}
+::-ms-selection {
+    background-color: paleturquoise;
+    color: black;
+}
+::-webkit-selection {
+    background-color: paleturquoise;
+    color: black;
+}

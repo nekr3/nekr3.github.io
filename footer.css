@@ -1,0 +1,43 @@
+footer {
+	width: 100%;
+	height: 75px;
+	background-color: #dddddd;
+	padding: 20px;
+	padding-top: 5px;
+	padding-left: 25px;
+}
+footer table tr td p {
+	font-family: Microsoft JhengHei UI, Hiragino Kaku Gothic Pro, Helvetiva Neue, Ubuntu, Verdana, sans-serif;
+	position: relative;
+}
+footer h1 {
+	font-family: Microsoft JhengHei UI, Hiragino Kaku Gothic Pro, Helvetiva Neue, Ubuntu, Verdana, sans-serif;
+}
+footer table tr td #coded {
+	text-align: right;
+	vertical-align: bottom;
+}
+footer table tr td img {
+	transition: 0.1s;
+}
+footer table tr td img:hover {
+	height: 40px;
+}
+#mailicon:hover {
+	height: 28.6px;
+}
+footer table tr {
+	height: 30px;
+	width: 100%;
+}
+footer table tr td {
+	width: 1%;
+	text-align: center;
+}
+footer table tr td table tr td {
+	width: 1%;
+}
+.contacticon {
+	border-top: 2px none black;
+	border-bottom: 2px none black;
+}
