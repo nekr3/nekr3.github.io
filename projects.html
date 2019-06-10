@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en" >
+	<head>
+		<title> Neil Malur </title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+		<link rel="stylesheet" href="headerstyle2.css">
+		<link rel="stylesheet" href="projectbody.css">
+		<link rel="stylesheet" href="footer.css">
+		<link rel="icon" type="image/png" href="rotate4adjust.png">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+		<script src="projectmain.js"></script>
+		<script src="homebody2.js"></script>
+	</head>
+	<body>
+		<div class="header" id = "pageheader">
+			<img height="42px" style="vertical-align: middle; padding: 8px; cursor: pointer; transition: 0.5s;" src="menuicon.png" id="menuicon" onmouseover="rotateImg()" onmouseout="unrotateImg()" onclick="toggleFade()"/>
+			<img height="42px" id="spacer" width="5px" style="vertical-align: middle; padding: 0px;" src="invisible.png" />
+			<img height="42px" id="logopic" width="42px" style="vertical-align: middle; padding: 5px;" src="logopicwhite.png" />
+			<img height="42px" id="spoocer" class = "disap" width="10px" style="vertical-align: middle; padding: 0px;" src="invisible.png" />
+			<a style="vertical-align: middle; opacity: 0;" id="logonm" href="https://nekr3.github.io/" class="logo disap">Neil Malur</a>
+			<div id = "pagebtns" class="header-left">
+				<a class="disap"id="home" style="display: none; opacity: 0;" href="https://nekr3.github.io/" onmouseover="leftHover()" onmouseout="leftHover()">HOME</a>
+				<a class="active" id="projects" href="https://nekr3.github.io/projects.html" onmouseover="activeHover()" onmouseout="activeHover()">PROJECTS</a>
+				<a id = "resumetab" class = "disap" style="display: none; opacity: 0;" href="https://nekr3.github.io/Resume.pdf" onmouseover="rightHover()" onmouseout="rightHover()">RESUME</a>
+			</div>
+		</div>
+		<div class = "content">
+			<div class="container">
+				<div style = "width: 100%; height: 10px" ></div>
+				<div id="bigplate">
+					<table id="plate">
+						<tr>
+							<div id = "grad" >
+								<div id = "nameholder" >
+									<h1 id="projectheader" >PROJECTS</span></h1>
+								</div>
+							</div>
+						</tr>
+					</table>
+				</div>
+				<div id = "spacer" style = "width: 100%; height: 20px" ></div>
+				<p class="sectioncontent" style="text-align: center;">A few of my more notable and major projects over the last couple years.</p>
+				<table width="100%">
+					<tr>
+						<td width="50%">
+							<table class="projecttable lefttable">
+								<tr>
+									<td>
+										<div class="awarded">
+											<table>
+												<tr>
+													<td>
+														<div class="innerdiv">
+															<h1 class="sectionheader"><span class="sectheadtext">clinical trials<span></h1>
+															<p class="sectioncontent">Clinical trials have notoriously low participation rates, possibly deterring participants from accessing life saving treatments.  To tackle this problem, I'm leading work on a machine learning solution through the Harvard-MIT Biomedical Cybernetics Laboratory and MIT PRIMES under the supervision of Prof. Gil Alterovitz to use machine learning in order to structure eligibility criteria for better patient matching.  We're currently near publication on this work.</p>
+														</div>
+													</td>
+												</tr>
+												<tr>
+													<td>
+														<div class="divtag">
+															<p class="tagcontent">NEARING PUBLICATION</p>
+														</div>
+													</td>
+												</tr>
+											</table>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<div>
+											<div class="innerdiv">
+												<h1 class="sectionheader"><span class="sectheadtext">voting age</span></h1>
+												<p class="sectioncontent">There has been a lot of talk of reducing the voting age recently due to the increased participation of high schoolers in politics, politicized events like school shootings, and fluctuating voter turnout.  Though, little to no research has been done on the impacts of doing this, so in order for us to be able to make this decision with an amount of background knowledge and information I'm conducting a study to measure the impacts of this decision.</p>
+											</div>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<div class="awarded">
+											<table>
+												<tr>
+													<td>
+														<div class="innerdiv">
+															<h1 class="sectionheader"><span class="sectheadtext">political sentiment prediction</span></h1>
+															<p class="sectioncontent">An increasingly prevalent issue in today's society is the polarization and increasing politicization of messages, especially those of public figures.  As a result, in order to encourage neutrality both in articles people are reading as well as messages people are sending out, I developed a tool to check the political sentiment of text using machine learning with high accuracy levels.</p>
+														</div>
+													</td>
+												</tr>
+												<tr>
+													<td>
+														<div class="divtag">
+															<p class="tagcontent">MOST ENTREPRENEURIAL AWARD<br><span>MetroHacks III<span></p>
+														</div>
+													</td>
+												</tr>
+											</table>
+										</div>
+									</td>
+								</tr>
+							</table>
+							<div class="padder" />
+						</td>
+						<td width="50%">
+							<table class="projecttable righttable">
+								<tr>
+									<td>
+										<div class="awarded">
+											<table>
+												<tr>
+													<td>
+														<div class="innerdiv">
+															<h1 class="sectionheader" style="text-align:right;"><span class="sectheadtext">flu prediction</span></h1>
+															<p class="sectioncontent">The spread of diseases, such as the flu, is becoming harder and harder to predict, leading to either over or under preparation for outbreaks.  As a result, I developed a model using machine learning to improve on the current standard of flu prediction significantly with relatively fewer variables in order to help combat this issue.</p>	
+														</div>
+													</td>
+												</tr>
+												<tr>
+													<td>
+														<div class="divtag">
+															<p class="tagcontent">HONORABLE MENTION<br><span>Massachusetts Science & Engineering Fair<span></p>
+														</div>
+													</td>
+												</tr>
+											</table>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<div class="awarded">
+											<table>
+												<tr>
+													<td>
+														<div class="innerdiv">
+															<h1 class="sectionheader" style="text-align:right;"><span class="sectheadtext">demographic prediction</span></h1>
+															<p class="sectioncontent">With data collection techniques being bad or inefficient in areas across the globe, I developed a methodology to predict city or town demographics to a high degree of accuracy from satellite imagery.  This methodology used machine learning in order to predict various city demographics from the imagery across the globe to hopefully help combat this issue and make data more readily available.</p>
+														</div>
+													</td>
+												</tr>
+												<tr>
+													<td>
+														<div class="divtag">
+															<p class="tagcontent">PRESENTED AT<br><span>Massachusetts Science & Engineering Fair</span></p>
+														</div>
+													</td>
+												</tr>
+											</table>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<div>
+											<div class="innerdiv">
+												<h1 class="sectionheader" style="text-align:right;"><span class="sectheadtext">handwriting to text</span></h1>
+												<p class="sectioncontent">I built a tool to convert handwriting from an image to text using machine learning and learning the individual's handwriting.  This was eventually implemented by some teachers to help decipher more troublesome handwriting that they had trouble deciphering on written work.</p>
+											</div>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<div class="awarded">
+											<table>
+												<tr>
+													<td>
+														<div class="innerdiv">
+															<h1 class="sectionheader" style="text-align:right;"><span class="sectheadtext">vigenère encoder</span></h1>
+															<p class="sectioncontent">I built a system for secure message encrypton with thousands of possible one time pads and a built in pad transferral system so that if both members had this program on their computers secure messages could be transferred.</p>
+														</div>
+													</td>
+												</tr>
+												<tr>
+													<td>
+														<div class="divtag">
+															<p class="tagcontent">MOST CREATIVE AWARD<br><span>HackNEHS</span></p>
+														</div>
+													</td>
+												</tr>
+											</table>
+										</div>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<div style="height: 15px"> </div>
+		<footer>
+			<table>
+				<tr style="height: 35px">
+					<td rowspan="2">
+						<table width="100%">
+							<tr style="height: 50px" width="100%" >
+								<td style="border-right: 1.5px solid black;">
+									<h1 style="margin: 0 auto; font-size: 20px;" >
+									Contact
+									</h1>
+								</td>
+								<td class="contacticon" >
+									<a target="_blank" href="mailto:nmalur@outlook.com" >
+										<img src="mailicon2.png" width="40px" />
+									</a>
+								</td>
+								<td class="contacticon" >
+									<a target="_blank" href="https://github.com/nekr3" >
+										<img src="githubicon.png" width="40px" />
+									</a>
+								</td>
+								<td class="contacticon" >
+									<a target="_blank" href="https://linkedin.com/in/nmalur" >
+										<img src="linkedinicon2.PNG" width="40px" />
+									</a>
+								</td>
+								<td class="contacticon" >
+									<a target="_blank" href="skype:neilmalur?userinfo" >
+										<img src="skypeicon.png" width="40px" />
+									</a>
+								</td>
+							</tr>
+						</table>
+					</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td colspan="3"><p id="coded"> Coded with ❤️ by Neil Malur | 2019</p></td>
+				</tr>
+			</table>
+		</footer>
+		<script src="body.js"></script>
+	</body>
+</html>
