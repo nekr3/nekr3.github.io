@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:400|Heebo:300,400|Lato:400|Roboto:300,400&display=swap');
+#resume {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 55px;
+	width: 138px;
+	background-color: #051940;
+	border: 1px solid #ffffff;
+	color: #E9F2EA;
+	font-family: Noto Sans KR, Microsoft JhengHei UI, Hiragino Kaku Gothic Pro, Helvetiva Neue, Ubuntu, Verdana, Sans-serif;
+	/*font-weight: bold;*/
+	font-size: 19px;
+	font-weight: 400;
+	transition: 0.2s;
+}
+#bigplate {
+	background-image: url("mountains.jpg");
+	/*background-size: 1200px;*/
+	background-size: auto 100%;
+	background-position: center;/*-400px*/
+	height: 100vh;
+	padding-top: 25vh;
+	/*height:500px;
+	padding-top: 135px;*/
+}
+#grad {
+	width: 100%;
+	height: 170px;
+	/*background-image: linear-gradient(90deg, #3387C6, #4397D6);*/
+	/*background-image: linear-gradient(90deg, #3387C6, #3387C6, #3387C6, #2AB0BF, #2AB0BF);*/
+	/*background-image: radial-gradient(circle at 83% 50%, #E9F2EA, #3387C6, #3387C6, #3387C6);*/
+	/*background-color: #0367A6;*/
+	/*background-color: #3387C6;*/
+	/*background-image: url("powderexplode.jpeg");
+	background-size: 100%;
+	background-position: center -60%;/*-400px*/
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 10px 10px 0px 0px;
+	padding: 20px 0px 20px 0px;
+}
+#grad2 {
+	width: 100%;
+	/*height: 55px;*/
+	/*background-image: linear-gradient(90deg, #3387C6, #4397D6);*/
+	/*background-image: linear-gradient(90deg, #3387C6, #3387C6, #3387C6, #2AB0BF, #2AB0BF);*/
+	/*background-image: radial-gradient(circle at 96% -125%, #E9F2EA, #3387C6, #3387C6, #3387C6);*/
+	/*background-color: #0367A6;*/
+	/*background-color: #3387C6;*/
+	/*background-image: url("powderexplode.jpeg");
+	background-size: 100%;
+	background-position: center -27.5%;/*-570px*/
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 0px 0px 10px 10px;
+	padding-bottom: 20px;
+	margin: 0 auto;
+	padding: 0px 0px 20px 0px;
+	padding-top: 10vh;
+}
+#grad3 {
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 8vh;
+}
+/*#leftholder*/ 
+#nameholder {
+	border-radius: 0px 10px 10px 0px;
+	background-color: white;
+	width: 70%;
+	height:130px;
+	float:left;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#descholder {
+	border-radius: 0px 0px 0px 0px;
+	background-color: white;
+	width: 50%;/*80%
+	height:40px;*/
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align:center;
+	padding-top: 8px;
+	overflow:hidden;
+	border-radius: 7px;
+}
+.spaceblock {
+	width: 2%;
+}
+.whiteblock {
+	background-color: white;
+	width: 8%;
+}
+#leftspaceblock {
+	width: 20%;
+}
+#rightspaceblock {
+	width: 30%;
+}
+#downarrow {
+	position: absolute;
+	cursor: pointer;
+	transition: 0.4s;
+}
+#leftblock {
+	border-radius: 0px 7px 7px 0px;
+	background-color: transparent;
+}
+#rightblock {
+	border-radius: 7px 0px 0px 7px;
+}
+#neil {
+	text-align: center;
+	color: #444444;
+	font-family: Heebo, Microsoft JhengHei UI Light, Hiragino Kaku Gothic Pro, Helvetiva Neue, Ubuntu, Verdana, sans-serif;
+	font-size: 64px;
+	font-weight: 300;
+}
+#malur {
+	font-weight: 400;
+	color: #4D77A1;/*#3387C6#0367A6#2AB0BF#046dae*/
+	font-family: Heebo, Microsoft JhengHei UI Light, Hiragino Kaku Gothic Pro, Helvetiva Neue, Ubuntu, Verdana, sans-serif;
+}
+#headdesc {
+	font-family: Lato, Trebuchet MS, Microsoft JhengHei UI, Hiragino Kaku Gothic Pro, Helvetiva Neue, Ubuntu, Verdana, sans-serif;
+	width: 95%;
+	font-size: 18px;
+	font-weight: 400;
+}
+.sectionheader {
+	font-family: Microsoft JhengHei UI Light, Hiragino Kaku Gothic Pro, Helvetiva Neue, Ubuntu, Verdana, Sans-serif;
+	/*color: #20a5e6;
+	text-decoration: underline;*/
+	z-index: 2;
+	/*font-size: 36px;*/
+}
+.sectheadtext {
+	color: black;
+	z-index: 2;
+}
+.sectioncontent {
+	font-family: Microsoft JhengHei UI, Hiragino Kaku Gothic Pro, Helvetiva Neue, Ubuntu, Verdana, Sans-serif;
+	font-size: 16px;
+}/*
+#bgimage {
+	background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%), url(bg.png) repeat 0 0, url("nodesbackground.jpg") repeat 0 0;
+	background: -moz-linear-gradient(top, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.7) 100%), url("nodesbackground.jpg") repeat 0 0;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.7)), color-stop(100%,rgba(255,255,255,0.7))), url("nodesbackground.jpg") repeat 0 0;
+	background: -webkit-linear-gradient(top, rgba(255,255,255,0.7) 0%,rgba(255,255,255,0.7) 100%), url("nodesbackground.jpg") repeat 0 0;
+	background: -o-linear-gradient(top, rgba(255,255,255,0.7) 0%,rgba(255,255,255,0.7) 100%), url("nodesbackground.jpg") repeat 0 0;
+	background: -ms-linear-gradient(top, rgba(255,255,255,0.7) 0%,rgba(255,255,255,0.7) 100%), url("nodesbackground.jpg") repeat 0 0;
+	background: linear-gradient(to bottom, rgba(0,0,10,0.5) 0%,rgba(0,0,10,0.5) 100%), url("nodesbackground.jpg") repeat 0 0;
+	background-size: 100%;
+	background-position: center bottom;
+	filter: blur(3px);
+	height: 150px;
+	position: relative;
+	z-index: -1;
+}*/
+#statholder {
+	width:100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/*background-image: url("nodesbackground.jpg");*/
+	background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%), url(bg.png) repeat 0 0, url("nodesbackground.jpg") repeat 0 0;
+	background: -moz-linear-gradient(top, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.7) 100%), url("nodesbackground.jpg") repeat 0 0;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.7)), color-stop(100%,rgba(255,255,255,0.7))), url("nodesbackground.jpg") repeat 0 0;
+	background: -webkit-linear-gradient(top, rgba(255,255,255,0.7) 0%,rgba(255,255,255,0.7) 100%), url("nodesbackground.jpg") repeat 0 0;
+	background: -o-linear-gradient(top, rgba(255,255,255,0.7) 0%,rgba(255,255,255,0.7) 100%), url("nodesbackground.jpg") repeat 0 0;
+	background: -ms-linear-gradient(top, rgba(255,255,255,0.7) 0%,rgba(255,255,255,0.7) 100%), url("nodesbackground.jpg") repeat 0 0;
+	background: linear-gradient(to bottom, rgba(0,0,10,0.5) 0%,rgba(0,0,10,0.5) 100%), url("nodesbackground.jpg") repeat 0 0;
+	background-size: 100%;
+	background-position: center bottom;
+	color: white;
+	padding: 20px 100px 20px 100px;
+	position: relative;
+	top: -25px;
+}
+.bignum {
+	font-size: 48px;
+	font-family: Microsoft JhengHei UI Light, Hiragino Kaku Gothic Pro, Helvetiva Neue, Ubuntu, Verdana, Sans-serif;
+}
+.numdesc {
+	font-size: 16px;
+	font-family: Microsoft JhengHei UI, Hiragino Kaku Gothic Pro, Helvetiva Neue, Ubuntu, Verdana, Sans-serif;
+	font-weight: bold;
+}
+#statholder td {
+	text-align: center;
+}
+::selection {
+    background-color: #b4e1f7;
+    color: black;
+}
+::-moz-selection {
+    background-color: #b4e1f7;
+    color: black;
+}
+::-o-selection {
+    background-color: #b4e1f7;
+    color: black;
+}
+::-ms-selection {
+    background-color: #b4e1f7;
+    color: black;
+}
+::-webkit-selection {
+    background-color: #b4e1f7;
+    color: black;
+}
