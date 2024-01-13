@@ -4,6 +4,7 @@
     background-color: #fcfcfc;
     z-index: 0;
     position:relative;
+    
 }
 
 /** NAVBAR **/
@@ -168,7 +169,8 @@ h1 {
 
 .box {
     background-color: rgb(238, 243, 244);
-    border: 0px solid black;
+    border: 2px solid #999;
+    border-width: 2px 0px 2px 0px;
     border-radius: 0px;
     padding: 20px 0px 20px 0px;
     line-height: 26px;
@@ -196,6 +198,14 @@ p {
 
 .box, .me, .work, .classes {
     display:none;
+}
+
+.classes table p {
+    padding: 0px 0px 0px 30px;
+}
+
+.classes table span {
+    font-weight: bold;
 }
 
 /** FOOTER **/
