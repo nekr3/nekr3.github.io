@@ -130,7 +130,7 @@ h1 {
     background: thistle;
 }*/
 
-@media (max-width: 400px) {
+@media screen and (max-width: 400px) {
     .select {
         flex-direction: column;
     }
