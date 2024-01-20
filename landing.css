@@ -110,7 +110,7 @@ h1 {
 }
 
 .active::after {
-    background: rgb(148, 188, 194);
+    background: rgb(157, 202, 212);
 }
 
 /*
