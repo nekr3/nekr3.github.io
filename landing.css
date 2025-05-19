@@ -110,7 +110,7 @@ h1 {
 }
 
 .active::after {
-    background: rgb(148, 188, 194);
+    background: rgb(173, 213, 219);
 }
 
 /*
@@ -196,12 +196,21 @@ p {
     font-size: 18px;
 }
 
+.body p {
+    font-size: 16px;
+}
+
 .box, .me, .work, .classes {
     display:none;
 }
 
+.classes table, tr {
+    width: 100%;
+}
+
+
 .classes table p {
-    padding: 0px 0px 0px 30px;
+    padding-left: 14%;
 }
 
 .classes table span {
