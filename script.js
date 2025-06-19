@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function(event) {
     document.getElementById("me").addEventListener("click", () => toggle("me"));
     document.getElementById("work").addEventListener("click", () => toggle("work"));
-    document.getElementById("classes").addEventListener("click", () => toggle("classes"));
+    document.getElementById("projects").addEventListener("click", () => toggle("projects"));
     document.getElementById("resume").addEventListener("click", openResume);
   });
 

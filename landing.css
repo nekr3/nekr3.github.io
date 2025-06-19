@@ -4,7 +4,10 @@
     background-color: #fcfcfc;
     z-index: 0;
     position:relative;
-    
+}
+
+html {
+  overflow-y: scroll;
 }
 
 /** NAVBAR **/
@@ -15,7 +18,7 @@
 
 /** HEADER **/
 
-p, h1 {
+p, h1, li, b {
     font-family: 'Roboto', 'Segoe UI', sans-serif;
 }
 
@@ -136,9 +139,9 @@ h1 {
 }*/
 
 @media (max-width: 400px) {
-    .select {
+    /*.select {
         flex-direction: column;
-    }
+    }*/
 }
 
 .select {
@@ -201,12 +204,16 @@ p {
     font-size: 18px;
 }
 
-.body p {
+.body p, li, b {
     font-size: 16px;
 }
 
-.box, .me, .work, .classes {
+.box, .me, .work, .projects {
     display:none;
+}
+
+ul {
+    margin-top: 0px;
 }
 
 .classes table, tr {

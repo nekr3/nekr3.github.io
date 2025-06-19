@@ -16,7 +16,7 @@
         <div class="description">
           <h1>Hi!  I'm <span class="neil" >Neil</span>,</h1>
 
-          <p>and I'm a senior at MIT working on code & policy.</p>
+          <p>and I'm a recent MIT grad working on code & policy.</p>
         </div>
         <div class="profile">
           <div class="profile-cropper">
@@ -35,7 +35,7 @@
           <p class="option highlight" id="work" >work</p>
         </div>
         <div class="select-item">
-          <p class="option highlight" id="classes" >classes</p>
+          <p class="option highlight" id="projects" >projects</p>
         </div>
         <div class="select-item">
           <p class="option highlight" id="resume" >resume</p>
@@ -44,27 +44,51 @@
       <div class="body">
         <div class="box">
           <div class="me text" >
-            <p>Hey! I'm Neil Malur, and I'm majoring in Computer Science & Engineering at MIT.
+            <p>Hey! I'm Neil Malur, and I just got my bachelor's degree in Computer Science and Engineering from MIT! 🎓
 
-              In June, I'll be joining the Indian Institute of Science's <a href="https://www.artpark.in/">ARTPARK</a> in machine learning research for heatwave detection before I start work this fall at Meta as a Software Engineer.
+              Right now, I'm working at the Indian Institute of Science's <a href="https://www.artpark.in/">ARTPARK</a> in machine learning research for heatwave detection before I start full-time this fall as a Software Engineer at Meta.
               
               I think a lot about how to build better systems in the world, and I try to use code to solve problems on the way there.
               
-              In my free time, you can probably find me dancing 🕺 or figuring out how to reattach my bike pedal 🚲 (again), but feel free to check out some of my work on the other tabs! </p>
+              In my free time, you can probably find me dancing 🕺, chatting with someone random off the street 👯, or figuring out how to fix my bike pedal 🚲 (again), but feel free to check out some of my work on the other tabs! </p>
           </div>
 
           <div class="work text">
-            <p>My most recent work has been at <a href="https://nominalinc.substack.com/p/nomineer-spotlight-interns">Nominal</a>, a startup that focuses on automating the hardware test and validation lifecycle.  At Nominal, I focused most on our data systems and processing, particularly on data ingest and internal computation.  Before Nominal, I got a taste of policy at the <a href="http://summerwash.mit.edu/interns/2023/neil-malur">United States Department of Commerce</a>, where I used machine learning to help shape macroeconomic policy tailored to alleviate geographic inequality.</p>
+            <p>My most recent work has been at <a href="https://nominalinc.substack.com/p/nomineer-spotlight-interns">Nominal</a>, a startup that focuses on automating the hardware test and validation lifecycle.  At Nominal, I focused most on our data systems and processing, particularly on speeding up our file ingest pipeline, adding additional REST API compatibility, and augmenting our data computation offerings.  Before Nominal, I got a taste of policy at the <a href="http://summerwash.mit.edu/interns/2023/neil-malur">United States Department of Commerce</a>, where I used machine learning to help shape macroeconomic policy tailored to alleviate geographic inequality.  At the DOC, I also worked on developing an in-depth case study of the metro Charlotte area based on original economic analysis.</p>
             
-            <p>In addition to industry work, I've also done some cool research!  <a href="https://arxiv.org/abs/2306.14705">One recent project</a> I worked on centered on modelling polymer crystallization using reinforcement learning, presented at the ICML 2023 Workshop on Structured Probabilistic Inference and Generative Modeling.  I've also worked on leveraging natural language processing to analyze the spread of misinformation online.</p>
+            <p>I've also found myself teaching a lot lately.  This year, I co-taught a machine learning course to graduate students at <a href="https://posgrado.utec.edu.pe/maestrias/ciencia-de-datos-inteligencia-artificial">La Universidad de Ingeniería y Tecnología</a> in Peru, with a focus on combining theory with actionable projects and startups.  Last year, I taught web design and machine learning to undergraduate students and young professionals in Jordan with <a href="https://injaz.org.jo/">Injaz</a> :)</p>
 
-            <p>I've also found myself teaching a lot lately.  This year, I co-taught a machine learning course to graduate students at <a href="https://posgrado.utec.edu.pe/maestrias/ciencia-de-datos-inteligencia-artificial">La Universidad de Ingeniería y Tecnología</a> in Peru, with a focus on combining theory with actionable projects and startups.  Last, year I taught web design and machine learning to undergraduate students and young professionals in Jordan with <a href="https://injaz.org.jo/">Injaz</a> :)</p>
-
-            <p>My current interests are in computer security and natural language processing, and I'm excited to work on projects that apply them to a policy context.</p>
+            <p>My current interests are in computer security and natural language processing, and I'm especially excited to work on projects that apply them to a policy context.</p>
           </div>
 
-          <div class="classes text">
-            <table>
+          <div class="projects text">
+            <p>Here are brief descriptions of some projects I've worked on in the last 2-3 years!</p>
+            <b>DIE-BERT</b>
+            <ul>
+              <li>As a final project for a Natural Language Processing course, we augmented BERT to accept prosody-related information, including relative spoken word length.  We used forced alignment to gather this data from speech, modified BERT's input layer to accept our additional encoding, and fine-tuned the model on the results.</li>
+            </ul>
+            <b>Polymer Property Prediction</b>
+            <ul>
+              <li>With MIT's Climate and Sustainability Consortium, we designed and implemented a reinforcement learning-based <a href="https://arxiv.org/abs/2306.14705">architecture</a> for polymer property prediction, particularly ensuring that crystallization would create valid conformations.  We used a novel framework and strategies to reduce the search space of the folding of very long polymer chains, and our work was presented at an ICML workshop!</li>
+            </ul>
+            <b>Security Key Login</b>
+            <ul>
+              <li>For a final project in my Systems Security class, I secured a social media site by augmenting it to support WebAuthn 2.0 compliant security key login and to consistently fetch certificates from an ACME server.</li>
+            </ul>
+            <b>COVID Misinformation Timeline</b>
+            <ul>
+              <li>As a Social and Ethical Responsibilities of Computing Scholar at MIT, I worked with a lab to produce a timeline and analysis of the spread of COVID-19 misinformation using natural language processing on scraped social media information.  We used both more analog NLP methods as well as pipelined LLM tagging on primarily Reddit and Twitter data.</li>
+            </ul>
+            <b>File Download Overlay</b>
+            <ul>
+              <li>As a final project for a Computer Networks course, we designed and implemented an overlay network and congestion control mechanism to optimize multi-user file download on a shared network.  Using partitioning of the file, consistent re-evaluation of link usage, and a custom pathing protocol, we achieved the most consistent and one of the highest performances for large files.</li>
+            </ul>
+            <b>Homemade</b>
+            <ul>
+              <li>To compete in MIT's Web Lab monthlong competition, we created a React-based site with hooks to generate recipes based on user-inputted ingredients.  Once the recipe was created, the site would launch a custom game to go find all the ingredients!</li>
+            </ul>
+
+            <!--table>
               <tr>
                 <td>
                   <p>
@@ -151,13 +175,13 @@
                   </p>
                 </td>
               </tr>
-            </table>
+            </table-->
           </div>
         </div>
       </div>
       <div class="footer" >
         <p>reach me at malur [at] mit [dot] edu!</p>
-        <p>updated april 2025</p>
+        <p>updated june 2025</p>
       </div>
     </div>
   </body>
